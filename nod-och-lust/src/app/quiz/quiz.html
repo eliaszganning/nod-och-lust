@@ -1,0 +1,24 @@
+<section class="screen">
+  @if (quiz.canGoBack()) {
+    <button type="button" class="back" (click)="goBack()" aria-label="Föregående fråga">
+      ← Tillbaka
+    </button>
+  }
+
+  @if (!quiz.isComplete()) {
+    <p class="progress">
+      {{ quiz.index() + 1 }} / {{ quiz.total }}
+    </p>
+    <h1>{{ quiz.currentQuestion().question }}</h1>
+    <div class="alternatives">
+      @for (alternative of quiz.shownAlternatives(); track alternative.key) {
+        <button type="button" class="choice" (click)="select(alternative.key)">
+          {{ alternative.label }}
+        </button>
+      }
+    </div>
+  } @else {
+    <h1>Nu är quizet klart!</h1>
+    <button type="button" class="cta" (click)="seeResult()">Se resultat</button>
+  }
+</section>

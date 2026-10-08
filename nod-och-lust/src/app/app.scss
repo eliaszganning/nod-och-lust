@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+}
+
+.matrix-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(
+      180deg,
+      transparent 0,
+      transparent 18px,
+      rgba(0, 255, 65, 0.04) 19px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 22px,
+      rgba(0, 255, 65, 0.03) 23px
+    );
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 32rem);
+  margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+:root {
+  --matrix-black: #020402;
+  --matrix-green: #00ff41;
+  --matrix-dim: #0f8a2e;
+  --matrix-glow: rgba(0, 255, 65, 0.45);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--matrix-black);
+  color: var(--matrix-green);
+  font-family: "Share Tech Mono", "Courier New", Courier, monospace;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at top, rgba(0, 255, 65, 0.12), transparent 42%),
+    linear-gradient(rgba(0, 255, 65, 0.05) 1px, transparent 1px);
+  background-size: auto, 100% 4px;
+}
+
+button {
+  appearance: none;
+  border: 1px solid var(--matrix-green);
+  background: transparent;
+  color: var(--matrix-green);
+  font: inherit;
+  letter-spacing: 0.04em;
+  padding: 0.95rem 1.1rem;
+  min-height: 3.25rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 0 12px rgba(0, 255, 65, 0.18);
+}
+
+button:hover,
+button:focus-visible {
+  background: rgba(0, 255, 65, 0.12);
+  outline: none;
+  box-shadow: 0 0 18px var(--matrix-glow);
+}
+
+button:active {
+  background: rgba(0, 255, 65, 0.22);
+}

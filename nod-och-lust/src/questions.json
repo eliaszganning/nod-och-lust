@@ -1,0 +1,179 @@
+{
+    "questions": [
+        {
+            "question": "Spela eller sjunga?",
+            "alternatives": {
+                "s": "Spela",
+                "n": "Sjunga"
+            }
+        },
+        {
+            "question": "Foward eller back?",
+            "alternatives": {
+                "s": "Forward",
+                "n": "Back"
+            }
+        },
+        {
+            "question": "Se på fotboll eller spela fotboll?",
+            "alternatives": {
+                "s": "Se på fotboll",
+                "n": "Spela fotboll"
+            }
+        },
+        {
+            "question": "Fysik eller kemi?",
+            "alternatives": {
+                "s": "Fysik",
+                "n": "Kemi"
+            }
+        },
+        {
+            "question": "Créme brûlée eller kladdkaka?",
+            "alternatives": {
+                "s": "Créme brûlée",
+                "n": "Kladdkaka"
+            }
+        },
+        {
+            "question": "Gammeldansk eller en gammal dansk?",
+            "alternatives": {
+                "s": "Gammeldansk",
+                "n": "En gammal dansk"
+            }
+        },
+        {
+            "question": "Harry Potter eller Lord of The Rings?",
+            "alternatives": {
+                "s": "Harry Potter",
+                "n": "Lord of The Rings"
+            }
+        },
+        {
+            "question": "Liten väska eller stor väska?",
+            "alternatives": {
+                "s": "Liten väska",
+                "n": "Stor väska"
+            }
+        },
+        {
+            "question": "Minigolf eller boule?",
+            "alternatives": {
+                "s": "Minigolf",
+                "n": "Boule"
+            }
+        },
+        {
+            "question": "August Strindberg eller Fredrik Backman?",
+            "alternatives": {
+                "s": "August Strindberg",
+                "n": "Fredrik Backman"
+            }
+        },
+        {
+            "question": "Ipren eller Alvedon?",
+            "alternatives": {
+                "s": "Ipren",
+                "n": "Alvedon"
+            }
+        },
+        {
+            "question": "Kungen eller kronprinsessan?",
+            "alternatives": {
+                "s": "Kungen",
+                "n": "Kronprinsessan"
+            }
+        },
+        {
+            "question": "Veronica Maggio eller Lars Winnerbäck?",
+            "alternatives": {
+                "s": "Veronica Maggio",
+                "n": "Lars Winnerbäck"
+            }
+        },
+        {
+            "question": "Android eller Apple?",
+            "alternatives": {
+                "s": "Android",
+                "n": "Apple"
+            }
+        },
+        {
+            "question": "Nyår eller tjejnyår?",
+            "alternatives": {
+                "s": "Nyår",
+                "n": "Tjejnyår"
+            }
+        },
+        {
+            "question": "Jula eller hjula?",
+            "alternatives": {
+                "s": "Jula",
+                "n": "Hjula"
+            }
+        },
+        {
+            "question": "Parcermoni eller giftermål?",
+            "alternatives": {
+                "s": "Parcermoni",
+                "n": "Giftermål"
+            }
+        },
+        {
+            "question": "Powerking eller Burger King?",
+            "alternatives": {
+                "s": "Powerking",
+                "n": "Burger King"
+            }
+        },
+        {
+            "question": "Napoleon Bonaparte eller napoleonbakelse?",
+            "alternatives": {
+                "s": "Napoleon Bonaparte",
+                "n": "Napoleonbakelse"
+            }
+        },
+        {
+            "question": "Träslöjd eller syslöjd?",
+            "alternatives": {
+                "s": "Träslöjd",
+                "n": "Syslöjd"
+            }
+        },
+        {
+            "question": "Grotesco eller en grotesk ko?",
+            "alternatives": {
+                "s": "Grotesco",
+                "n": "Grotesk ko"
+            }
+        },
+        {
+            "question": "Long Island Ice Tea eller Short Sea Tea?",
+            "alternatives": {
+                "s": "Long Island Ice Tea",
+                "n": "Short Sea Tea"
+            }
+        },
+        {
+            "question": "Solsemester eller skidsemester?",
+            "alternatives": {
+                "s": "Solsemester",
+                "n": "Skidsemester"
+            }
+        },
+        {
+            "question": "Överlat eller undulat?",
+            "alternatives": {
+                "s": "Överlat",
+                "n": "Undulat"
+            }
+        },
+        {
+            "question": "ÖSK eller DIF?",
+            "alternatives": {
+                "s": "ÖSK",
+                "n": "DIF"
+            }
+        }
+    ]
+}
